@@ -36,6 +36,7 @@ export default function AddPage() {
               type="text"
               placeholder="Type here"
               className="input input-bordered input-info w-full"
+              maxLength={8}
               onChange={(e) => {setNPM(e.target.value)}}
             />
           </div>
@@ -47,6 +48,7 @@ export default function AddPage() {
               type="text"
               placeholder="Type here"
               className="input input-bordered input-info w-full"
+              maxLength={50}
               onChange={(e) => {setNAMA(e.target.value)}}
             />
           </div>
